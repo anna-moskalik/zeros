@@ -4,7 +4,7 @@ module.exports = function zeros(expression) {
   let zeros = 0;
   let s = 1;
 
-  for (let i = 0; i <= n; i++)
+  for (let i = 0; i < n; i++)
     if (array[i].endsWith('!!')) {
       let num = array[i].slice(-6, -2);
         if (num % 2 == 1) {
